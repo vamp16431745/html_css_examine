@@ -10,8 +10,12 @@
 
 ## 第二部分 製作responsive Web Design (RWD)
 
-1.### 套用bootstrap的css和js檔
+1. ### 套用bootstrap的css和js檔
+2. ### 建立導覽列
+-手機直向和橫向才出現導覽列按鈕(把中斷點從lg改為md)
+![](images/123.jpg)
 
+3. 
 
 
 ##驗收結果
