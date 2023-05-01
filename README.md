@@ -18,6 +18,15 @@
 
 # 網頁驗收第2階段-得分70分
 
+製作Responsive Web Design (RWD)的內容
+建立html的layout-header,content,footer
+使用display:grid
+建立content內,9個section區
+
+
+# 網頁驗收第3階段-得分80分
+製作Responsive Web Design (RWD)-header,fooder
+header部份
  
 
 
