@@ -8,10 +8,11 @@
 
 3. ###將github設為page,首頁名稱使用index.html
 
-## 第二部分 製作responsive Web Design (RWD)
+## 製作responsive Web Design (RWD)
+### 第1部分建立頁面根容器(id為root的div 把nav包住)-root在各種容器的最大寬度
 
 1. ### 套用bootstrap的css和js檔
-2. ### 建立導覽列
+2. ### 建立導覽列(使用bootstrap的navbar)
 -手機直向和橫向才出現導覽列按鈕(把中斷點從lg改為md)
 ![](images/123.jpg)
 
