@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(66, 220, 89);
+    background-color: rgb(53, 162, 230);
 }
 
 #root {
@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     /*直行1行*/
-    grid-template-rows: auto auto 200px;
+    grid-template-rows: auto auto auto;
     /*橫列3列*/
     grid-template-areas:
         "header"
@@ -51,10 +51,17 @@ body {
     flex: 0 1 100%;
     /*100%代表只有1列 50%2列*/
     border: 1px black solid;
+    padding: 2em;
+}
+
+#cards section div 
+{
+    border:1px black solid ;
+
 }
 
 #cards section.s1 {
-    background-color: rgb(196, 113, 23);
+    background-color: rgb(96, 185, 237);
 
 }
 
@@ -63,11 +70,13 @@ body {
 
 }
 
+/*
 #cards h1
 {
     text-align: center;
     margin: 2em 0em;
 }
+*/
 
 header h2
 {
@@ -81,6 +90,47 @@ header img
 {
     display: block;
     margin: 0 auto 2em; /*上 左右 下*/
+
+}
+
+footer ul
+{
+    margin: 2em  2em 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+footer ul a:hover
+{
+    text-decoration: none;  /*鼠標指到上面時變色*/
+    color: green;
+}
+
+footer ul img, footer ul span
+{
+    display: block;
+
+    margin-left: 0 auto;
+    text-align: center;
+
+}
+
+footer ul li
+{
+    list-style: none;
+    padding: 0 1em;  /*上下0  左右1em*/
+}
+
+footer address
+{
+    margin-top: 2em;
+    text-align: center;
+    font-size: small;
+    color: lightgrey;
 
 }
 
