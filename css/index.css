@@ -61,6 +61,28 @@ body {
 
 }
 
+#cards.card
+{display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+}
+
+#cards.card.cardTitle
+{flex:0 1 200px}
+
+#cards.card.cardText
+{
+    flex: 0 1 100px;
+}
+
+#cards.card.cardFooter
+{flex:0 1 50px}
+
+#cards.card h3
+{
+    flex: 0 1 200px;;
+}
+
 #cards section.s1 {
     background-color: rgb(96, 185, 237);
 
