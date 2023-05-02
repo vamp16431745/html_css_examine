@@ -50,13 +50,14 @@ body {
 #cards section {
     flex: 0 1 100%;
     /*100%代表只有1列 50%2列*/
-    border: 1px black solid;
+   
     padding: 2em;
 }
 
 #cards section div 
 {
     border:1px black solid ;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.5 );
 
 }
 
