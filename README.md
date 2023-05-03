@@ -1,32 +1,53 @@
-#網頁驗收第一階段-得分60分
-## 第一部分 github repo 的建立和成為web Server
+# 網頁驗收第1階段-得分60分
+### 第1部份 github repo 的建立和成為web Server
 
-1. ###使用gh指令建立github的repo
-  -gh repo create my-project --public --clone
+1. ### 使用gh指令建立github的repo
+  - gh repo create my-project --public --clone
+  
+2. ### 上傳網頁至githus
 
-2. ###上傳網頁至github
+3. ### 將github設定為page,首頁名稱使用index.html
 
-3. ###將github設為page,首頁名稱使用index.html
-
-## 製作responsive Web Design (RWD)
-### 第2部分建立頁面根容器(id為root的div 把nav包住)-root在各種viewport的最大寬度
+### 第2部份建立頁面根容器(root)在各種viewport的最大寬度
 
 1. ### 套用bootstrap的css和js檔
+   
 2. ### 建立導覽列(使用bootstrap的navbar)
--手機直向和橫向才出現導覽列按鈕(把中斷點從lg改為md)
-![](images/123.jpg)
+   
+    - 手機直向和橫向才出現**導覽列按鈕**
+  
+   ![](images/pic1.png)
 
 # 網頁驗收第2階段-得分70分
+## 製作Responsive Web Design (RWD)的內容
 
-製作Responsive Web Design (RWD)的內容
-建立html的layout-header,content,footer
-使用display:grid
-建立content內,9個section區
-
+1. ### 建立html的layout-header,content,footer
+    - 使用display:grid
+  
+2. ### 建立content內,9個section區
+   
+![](images/pic2.png)
 
 # 網頁驗收第3階段-得分80分
-製作Responsive Web Design (RWD)-header,fooder
-header部份
- 
+## 製作Responsive Web Design (RWD)-header,fooder
+
+### header部份
+![](images/pic3.png)
+
+# 網頁驗收第4階段-得分90分
+### fooder部份
+- 加入svg圖片和文字
+- ul使用display:flex做layout
+- a:link
+- a:hover
+  
+![](images/pic4.png)
+
+# 網頁驗收第5階段-得分100分
+### main部份
+
+![](images/pic5.png)
+
+
 
 
